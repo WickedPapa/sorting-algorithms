@@ -1,6 +1,5 @@
 package com.exercise.sorting_algorithms;
 
-import com.exercise.sorting_algorithms.configuration.SortingImplementation;
 import com.exercise.sorting_algorithms.service.SortingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.ApplicationRunner;

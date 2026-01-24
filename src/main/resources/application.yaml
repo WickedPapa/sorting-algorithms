@@ -4,6 +4,6 @@ spring:
 
 sorting:
   #implementation: INSERTION_SORT
-  implementation: BUBBLE_SORT
-  #implementation: BUBBLE_SORT_EARLY_STOP
+  #implementation: BUBBLE_SORT
+  implementation: BUBBLE_SORT_EARLY_STOP
   #implementation: MERGE_SORT
