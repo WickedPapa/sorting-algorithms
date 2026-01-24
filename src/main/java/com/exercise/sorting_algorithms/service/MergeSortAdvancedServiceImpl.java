@@ -1,7 +1,5 @@
 package com.exercise.sorting_algorithms.service;
 
-import java.util.Arrays;
-
 public class MergeSortAdvancedServiceImpl implements SortingService{
     @Override
     public char[] sort(char[] array) {
