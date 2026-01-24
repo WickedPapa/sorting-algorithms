@@ -1,0 +1,7 @@
+package com.exercise.sorting_algorithms.configuration;
+
+public enum SortingImplementation {
+    INSERTION_SORT,
+    BUBBLE_SORT,
+    BUBBLE_SORT_EARLY_STOP
+}
