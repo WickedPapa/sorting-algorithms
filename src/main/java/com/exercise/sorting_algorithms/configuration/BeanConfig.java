@@ -1,9 +1,6 @@
 package com.exercise.sorting_algorithms.configuration;
 
-import com.exercise.sorting_algorithms.service.BubbleSortEarlyStopServiceImpl;
-import com.exercise.sorting_algorithms.service.BubbleSortServiceImpl;
-import com.exercise.sorting_algorithms.service.InsertionSortServiceImpl;
-import com.exercise.sorting_algorithms.service.SortingService;
+import com.exercise.sorting_algorithms.service.*;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,6 +15,8 @@ public class BeanConfig {
             case INSERTION_SORT -> new InsertionSortServiceImpl();
             case BUBBLE_SORT -> new BubbleSortServiceImpl();
             case BUBBLE_SORT_EARLY_STOP -> new BubbleSortEarlyStopServiceImpl();
+            case MERGE_SORT_SIMPLE -> new MergeSortSimpleServiceImpl();
+            case MERGE_SORT_ADVANCED -> new MergeSortAdvancedServiceImpl();
         };
     }
 }
