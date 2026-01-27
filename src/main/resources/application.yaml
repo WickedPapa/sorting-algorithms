@@ -7,4 +7,5 @@ sorting:
   #implementation: BUBBLE_SORT
   #implementation: BUBBLE_SORT_EARLY_STOP
   #implementation: MERGE_SORT_SIMPLE
-  implementation: MERGE_SORT_ADVANCED
+  #implementation: MERGE_SORT_ADVANCED,
+  implementation: QUICK_SORT

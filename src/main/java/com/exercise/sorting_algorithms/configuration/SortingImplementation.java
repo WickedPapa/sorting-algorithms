@@ -5,5 +5,6 @@ public enum SortingImplementation {
     BUBBLE_SORT,
     BUBBLE_SORT_EARLY_STOP,
     MERGE_SORT_SIMPLE,
-    MERGE_SORT_ADVANCED
+    MERGE_SORT_ADVANCED,
+    QUICK_SORT
 }
