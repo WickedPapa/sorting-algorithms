@@ -18,6 +18,6 @@ public class InsertionSortServiceImpl implements SortingService{
 
     @Override
     public String implementationName() {
-        return "Insertion Sort Implementation";
+        return "Insertion Sort";
     }
 }

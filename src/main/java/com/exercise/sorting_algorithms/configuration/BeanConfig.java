@@ -18,6 +18,7 @@ public class BeanConfig {
             case MERGE_SORT_SIMPLE -> new MergeSortSimpleServiceImpl();
             case MERGE_SORT_ADVANCED -> new MergeSortAdvancedServiceImpl();
             case QUICK_SORT -> new QuickSortServiceImpl();
+            case COUNTING_SORT -> new CountingSortServiceImpl();
         };
     }
 }

@@ -21,6 +21,6 @@ public class BubbleSortServiceImpl implements SortingService{
 
     @Override
     public String implementationName() {
-        return "Bubble Sort Implementation";
+        return "Bubble Sort";
     }
 }

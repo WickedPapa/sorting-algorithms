@@ -22,6 +22,6 @@ public class BubbleSortEarlyStopServiceImpl implements SortingService{
 
     @Override
     public String implementationName() {
-        return "Bubble Sort Early Stop Implementation";
+        return "Bubble Sort Early Stop";
     }
 }

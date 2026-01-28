@@ -8,4 +8,5 @@ sorting:
   #implementation: BUBBLE_SORT_EARLY_STOP
   #implementation: MERGE_SORT_SIMPLE
   #implementation: MERGE_SORT_ADVANCED,
-  implementation: QUICK_SORT
+  #implementation: QUICK_SORT
+  implementation: COUNTING_SORT
